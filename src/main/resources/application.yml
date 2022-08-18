@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/rede_social_tcc
-    username: postgres
-    password: 1234
+    url: ${postgres_url}
+    username: ${postgres_usuario}
+    password: ${postgres_senha}
   jpa:
     hibernate:
       ddl-auto: validate

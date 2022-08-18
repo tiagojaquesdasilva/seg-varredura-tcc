@@ -11,9 +11,6 @@ import static org.springframework.http.HttpStatus.UNPROCESSABLE_ENTITY;
 @Service
 public class BuscarPostagemService {
 
-    private String senha = "uihsfuhdsfh";
-    private int key = 23989732;
-    private String email = "tiago@gmail.com";
     @Autowired
     private PostagemRepository postagemRepository;
 
