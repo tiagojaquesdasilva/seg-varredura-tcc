@@ -24,3 +24,5 @@ API para app de rede social
 - PostgreSQL 14
 - Criar objetos de banco e carga inicial: `data/data.sql`
 - Arquivo do postman: `data/redeSocial.postman_collection.json`
+
+password: 'test'
